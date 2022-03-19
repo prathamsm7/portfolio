@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='w-full h-auto px-4 bg-[#084594] text-gray-300 grid sm:grid-cols-3 sm:justify-center md:grid-cols-3 gap-2 justify-between items-center pb-2'>
       <h2 className='font-bold sm:pt-3'>Copyright ©{year} </h2>
       <h2 className='font-bold sm:pt-3 sm:pb-3'>
-        Developed By Prathamesh Mungekar
+        Developed By <span className='text-[#ED5EDD]'>Prathamesh Mungekar</span>
       </h2>
       <span>
         <ul className='grid grid-cols-3'>
