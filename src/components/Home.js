@@ -34,7 +34,7 @@ const Home = () => {
             </p>
             <button
               onClick={openLink}
-              className='flex justify-center rounded outline-2 font-bold p-2 px-4 bg-white outline outline-offset-2 outline-pink-500 text-pink-600  hover:text-white hover:bg-pink-600 hover:outline-white'
+              className='flex justify-center rounded outline-2 font-bold p-2 px-4 bg-white outline outline-offset-2 outline-pink-500 text-pink-600  hover:text-white hover:bg-pink-600 hover:outline-white duration-700'
             >
               Resume <FcDocument className='pl-1' size={25} />
             </button>
