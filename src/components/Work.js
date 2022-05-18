@@ -94,7 +94,7 @@ const Work = () => {
                 </div>
               </div>
             </div>
-            <p className='text-center text-2xl font-bold'>D-Mart</p>
+            <p className='text-center text-2xl font-bold'>D-Mart Clone</p>
             <p className='text-base mb-2 mt-3'>
               DMart is a one-stop supermarket chain that aims to offer customers
               a wide range of basic home and personal products under one roof.
@@ -137,7 +137,7 @@ const Work = () => {
                 </div>
               </div>
             </div>
-            <p className='text-center text-2xl font-bold'>Big Basket</p>
+            <p className='text-center text-2xl font-bold'>Big Basket Clone</p>
             <p className='text-base mb-2 mt-3'>
               The best online grocery store in India. bigbasket is an online
               supermarket for all your daily needs. Online shopping now made
