@@ -1,6 +1,7 @@
 import React from 'react';
 import BB from '../assets/BB.png';
 import DMART from '../assets/DMART.png';
+import Expedia from '../assets/expedia.png';
 
 const Work = () => {
   return (
@@ -17,17 +18,17 @@ const Work = () => {
           {/* Grid Item */}
           <div className='shadow-md shadow-[#9476dae0] p-2 h-full w-full'>
             <div
-              style={{ backgroundImage: `url(${DMART})` }}
+              style={{ backgroundImage: `url(${Expedia})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div mb-2'
             >
               {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  D-Mart Clone
+                  Expedia Clone
                 </span>
                 <div className='pt-8 text-center'>
                   <a
-                    href='https://d-mart-clone.herokuapp.com/'
+                    href='https://expedia-co-in-clone.netlify.app/'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -36,7 +37,7 @@ const Work = () => {
                     </button>
                   </a>
                   <a
-                    href='https://github.com/prathamsm7/D-Mart-with-backend'
+                    href='https://github.com/Omkar-WD/Expedia-Frontend-Clone'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -47,16 +48,17 @@ const Work = () => {
                 </div>
               </div>
             </div>
-            <p className='text-center text-2xl font-bold'>
-              D-Mart (with backend)
-            </p>
+            <p className='text-center text-2xl font-bold'>Expedia Clone</p>
             <p className='text-base mb-2 mt-3'>
-              DMart is a one-stop supermarket chain that aims to offer customers
-              a wide range of basic home and personal products under one roof.
+              Expedia.co.in is an online travel agency owned by Expedia Group.
+              The website and mobile app can be used to book airline tickets,
+              hotel reservations, car rentals, cruise ships, and vacation
+              packages.
             </p>
             <p>
-              <span className='font-bold text-green-300	'>Tech Stack:-</span>EJS
-              | HTML | CSS | Javascript | MongoDb | Express.js | Node.js
+              <span className='font-bold text-green-300	'>Tech Stack:-</span>
+              React | Redux | Chakra-UI | MongoDb | Express.js | Node.js |
+              Mongoose
             </p>
           </div>
 
